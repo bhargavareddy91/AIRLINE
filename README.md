@@ -53,11 +53,7 @@ npm install
 npm start
 ```
 ### To Modify Flights and Airport Data 
-Log in as an Admin using the following credentials:
-
-Username: Admin
-
-password: Admin123
+Log in as an Admin 
 
 ### Features
 
