@@ -1,0 +1,301 @@
+.header_4 {
+    background-color: #7AB2B2;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main_4 {
+    padding: 20px;
+}
+
+.nav_4 {
+    margin-bottom: 20px;
+}
+.delete_4{
+    display: flex;
+    align-items: center;
+    margin-top : 1rem;
+}
+
+#add{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+
+.nav_4 button {
+    padding: 1rem;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #7AB2B2;
+    color: black;
+    font-weight: 600;
+}
+
+.nav_4 button:hover {
+    background-color: rgba(138, 199, 199, 0.814);
+}
+
+.hidden_4 {
+    display: none;
+}
+
+#view-flights-section , #manage-flights-section , #view-airports-section , #manage-airports-section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.down{
+    margin-top: 0.2rem;
+}
+
+.group_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 0.4rem;
+}
+
+.group{
+    text-align: center;
+    align-items: center;
+}
+
+#manage-flights-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.setting{
+    display : flex;
+    align-items: center;
+    gap : 0.5rem;
+    margin-top : 1rem;
+}
+
+#manage-airports-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#manage-flights-section form label {
+    grid-column: span 2;
+}
+
+#manage-airports-section form label{
+    grid-column: span 2;
+}
+
+#manage-airports-section form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#manage-airports-section form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#manage-flights-section form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#manage-flights-section form button{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#manage-flights-section form button {
+    grid-column: span 2;
+    width: 50%;
+    background-color: #7AB2B2;
+    font-weight: 600;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-top : 1rem;
+}
+
+#manage-airports-section form button {
+    grid-column: span 2;
+    width: 45%;
+    background-color: #7AB2B2;
+    font-weight: 600;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#manage-airports-section form button:hover {
+    background-color: rgba(138, 199, 199, 0.814);
+}
+
+#manage-flights-section form button:hover {
+    background-color: rgba(138, 199, 199, 0.814);
+}
+
+#flight-number{
+    margin-left : 1rem;
+    width : 79%
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.left_4{
+    margin-left : 1rem;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-content label {
+    display: block;
+    margin : 1.2rem;
+}
+
+.modal-content button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    opacity: 0.8;
+}
+
+#add-flight-btn,
+#delete-flight-btn,
+#add-daily-flight-btn,
+#add-weekly-flight-btn,
+#add-airport-btn,
+#delete-airport-btn{
+    background-color: #7AB2B2;
+    font-weight: 600;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    margin-top : 1rem;
+}
+
+#add-flight-btn:hover,
+#delete-flight-btn:hover,
+#add-airport-btn:hover,
+#delete-airport-btn:hover{
+    background-color: rgba(138, 199, 199, 0.814);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+}
+
+button.delete-btn, button.edit-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.delete-btn {
+    background-color: red;
+    color: white;
+    opacity: 0.8;
+}
+
+button.edit-btn {
+    background-color: green;
+    color: white;
+    opacity : 0.8;
+}
+
+#view-flights-section label,
+#view-airports-section label{
+    font-size: 1.2rem;
+}
+
+#view-date,
+#view-country{
+    padding: 0.4rem;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#view-flights-submit-btn,
+#view-airports-submit-btn{
+    background-color: #7AB2B2;
+    font-weight: 600;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+
+#view-flights-submit-btn_4{
+    background-color: #7AB2B2;
+    font-weight: 600;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem;
+    margin-left: 0rem;
+    border-radius: 5px;
+    margin-top : 1rem;
+}
+
+#view-flights-submit-btn:hover,
+#view-airports-submit-btn:hover{
+    background-color: rgba(138, 199, 199, 0.814);
+}
